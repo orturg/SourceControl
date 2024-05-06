@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .systemBackground
+        view.addSubview(button)
+        button.translatesAutoresizingMaskIntoConstraints = false
     }
 
 
