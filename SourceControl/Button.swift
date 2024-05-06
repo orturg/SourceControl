@@ -11,7 +11,7 @@ class Button: UIButton {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
+        backgroundColor = UIColor.systemBlue
     }
     
     required init?(coder: NSCoder) {
