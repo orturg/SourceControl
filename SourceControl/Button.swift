@@ -12,6 +12,7 @@ class Button: UIButton {
     override init(frame: CGRect) {
         super.init(frame: frame)
         backgroundColor = UIColor.systemBlue
+        titleLabel?.font = UIFont(name: "Arial", size: 18)
     }
     
     required init?(coder: NSCoder) {

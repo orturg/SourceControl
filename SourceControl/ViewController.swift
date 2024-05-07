@@ -19,6 +19,10 @@ class ViewController: UIViewController {
         view.addSubview(button)
         button.translatesAutoresizingMaskIntoConstraints = false
         button.titleLabel?.text = "Button"
+        
+        NSLayoutConstraint.activate([
+            button.topAnchor.constraint(equalTo: view.topAnchor, constant: 10)
+        ])
     }
 
 
