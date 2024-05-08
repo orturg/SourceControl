@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         view.backgroundColor = .systemBackground
         view.addSubview(button)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.titleLabel?.text = "Something"
+        button.titleLabel?.text = "Somethingg"
         button.titleLabel?.textColor = UIColor.lightGray
         
         button2.translatesAutoresizingMaskIntoConstraints = false
