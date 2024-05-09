@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         button2.translatesAutoresizingMaskIntoConstraints = false
         button2.titleLabel?.text = "Button 2"
         button2.titleLabel?.textColor = UIColor.green
+        button2.layer.cornerRadius = 15
         
         NSLayoutConstraint.activate([
             button.topAnchor.constraint(equalTo: view.topAnchor, constant: 10)
