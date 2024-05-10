@@ -11,7 +11,7 @@ class Button: UIButton {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = UIColor.systemBlue
+        backgroundColor = UIColor.red
         titleLabel?.font = UIFont(name: "Calibri", size: 22)
         layer.cornerRadius = 10
     }
