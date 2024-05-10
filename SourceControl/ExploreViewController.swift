@@ -12,6 +12,7 @@ class ExploreViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        view.backgroundColor = .red
         view.layer.cornerRadius = 20
     }
 
