@@ -13,6 +13,7 @@ class Button: UIButton {
         super.init(frame: frame)
         backgroundColor = UIColor.systemBlue
         titleLabel?.font = UIFont(name: "Calibri", size: 22)
+        layer.cornerRadius = 10
     }
     
     required init?(coder: NSCoder) {
