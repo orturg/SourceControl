@@ -18,11 +18,11 @@ class ViewController: UIViewController {
         view.backgroundColor = .systemBackground
         view.addSubview(button)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.titleLabel?.text = "Test1"
+        button.titleLabel?.text = "Title11111"
         button.titleLabel?.textColor = UIColor.lightGray
         
         button2.translatesAutoresizingMaskIntoConstraints = false
-        button2.titleLabel?.text = "Title2"
+        button2.titleLabel?.text = "Title22"
         button2.titleLabel?.textColor = UIColor.green
         button2.layer.cornerRadius = 15
         
