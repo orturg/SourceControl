@@ -13,6 +13,7 @@ class ExploreViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = .cyan
+        view.layer.cornerRadius = 20
     }
 
 
