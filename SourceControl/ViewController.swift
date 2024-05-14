@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         button3.layer.cornerRadius = 15
         
         button4.translatesAutoresizingMaskIntoConstraints = false
-        button4.titleLabel?.text = "Title4"
+        button4.titleLabel?.text = "Test"
         button4.titleLabel?.textColor = UIColor.green
         button4.layer.cornerRadius = 15
         
