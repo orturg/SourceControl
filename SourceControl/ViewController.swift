@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         button2.translatesAutoresizingMaskIntoConstraints = false
         button2.titleLabel?.text = "Test2"
         button2.titleLabel?.textColor = UIColor.green
-        button2.layer.cornerRadius = 15
+        button2.layer.cornerRadius = 12
         
         button3.translatesAutoresizingMaskIntoConstraints = false
         button3.titleLabel?.text = "Title3"
