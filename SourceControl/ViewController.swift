@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     let button = Button()
     let button2 = Button()
     let button3 = Button()
+    let button4 = Button()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +32,11 @@ class ViewController: UIViewController {
         button3.titleLabel?.text = "Title3"
         button3.titleLabel?.textColor = UIColor.green
         button3.layer.cornerRadius = 15
+        
+        button4.translatesAutoresizingMaskIntoConstraints = false
+        button4.titleLabel?.text = "Title4"
+        button4.titleLabel?.textColor = UIColor.green
+        button4.layer.cornerRadius = 15
         
         NSLayoutConstraint.activate([
             button.topAnchor.constraint(equalTo: view.topAnchor, constant: 10)
