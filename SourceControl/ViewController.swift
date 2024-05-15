@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     let button2 = Button()
     let button3 = Button()
     let button4 = Button()
+    let label = UILabel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
