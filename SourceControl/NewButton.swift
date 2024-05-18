@@ -11,8 +11,9 @@ class NewButton: UIButton {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = .black
-        layer.cornerRadius = 30
+      
+      backgroundColor = .red
+      layer.cornerRadius = 30
     }
     
     required init?(coder: NSCoder) {
