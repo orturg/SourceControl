@@ -13,7 +13,7 @@ class NewButton: UIButton {
         super.init(frame: frame)
       
       backgroundColor = .red
-      layer.cornerRadius = 26
+      layer.cornerRadius = 30
     }
     
     required init?(coder: NSCoder) {
