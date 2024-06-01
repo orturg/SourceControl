@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     let button2 = Button()
     let button3 = Button()
     let button4 = Button()
+    let button5 = Button()
     let label = UILabel()
     
     override func viewDidLoad() {
@@ -27,7 +28,7 @@ class ViewController: UIViewController {
         button2.translatesAutoresizingMaskIntoConstraints = false
         button2.titleLabel?.text = "Test2"
         button2.titleLabel?.textColor = UIColor.green
-        button2.layer.cornerRadius = 12
+        button2.layer.cornerRadius = 50
         
         button3.translatesAutoresizingMaskIntoConstraints = false
         button3.titleLabel?.text = "Title3"
